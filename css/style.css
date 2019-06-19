@@ -1,0 +1,64 @@
+@page {  }
+table { border-collapse:collapse; border-spacing:0; empty-cells:show }
+td, th { vertical-align:top; font-size:12pt;}
+h1, h2, h3, h4, h5, h6 { clear:both }
+ol, ul { margin:0; padding:0;}
+li { list-style: none; margin:0; padding:0;}
+<!-- "li span.odfLiEnd" - IE 7 issue-->
+li span. { clear: both; line-height:0; width:0; height:0; margin:0; padding:0; }
+span.footnodeNumber { padding-right:1em; }
+span.annotation_style_by_filter { font-size:95%; font-family:Arial; background-color:#fff000;  margin:0; border:0; padding:0;  }
+* { margin:0;}
+
+p
+{
+    font-size: 24pt; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    writing-mode: page; 
+    font-weight: bold; 
+}
+
+div
+{
+    font-size: 24pt; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    writing-mode: page; 
+    font-weight: bold; 
+}
+
+.P2 
+{ 
+    font-size:24pt; 
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    writing-mode:page; 
+    font-weight:bold; 
+    text-align:center ! important; 
+}
+
+<!-- ODF styles with no properties representable as CSS -->
+ { }
+body
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    background: url('../img/background.jpg');
+    font-size: 24pt; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    /*background-size: contain;*/
+}
+
+ul li a
+{
+    font-size:24pt; 
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    writing-mode:page; 
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+}
+
+ul li
+{
+    margin-bottom: 20px;
+}
